@@ -1,4 +1,29 @@
-.section h1 {
-    color: #333;
-    font-size: 24px;
+/* Using a CSS Selector to apply a style to at least one HTML tag */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Create a class and apply at least two styles to it */
+.section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Apply style to an ID */
+#contact {
+    background-color: #e0e0e0;
+}
+
+/* Using a CSS selecor to change the color of <a> when hovering over it with the cursor */
+a:hover {
+    color: #ff6600;
+}
+
+/* Change box model properties */
+.sample-image {
+    width: 200px;
+    height: auto;
+    border: 2px solid #333;
+    margin: 10px;
 }
